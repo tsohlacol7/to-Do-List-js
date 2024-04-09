@@ -104,6 +104,12 @@ body {
     align-items: center;
     margin-bottom: 20px;
 }
+.todo-app h6{
+    color:#8f9aa7;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 .todo-app h2 img{
     width:30px;
@@ -137,7 +143,7 @@ button{
     border:none;
     outline:none;
     padding:16px 50px;
-    background-color: #ff5945;
+    background-color: #2158c6;
     color:#fff;
     cursor:pointer;
     border-radius:40px;
@@ -188,5 +194,14 @@ ul li span {
 }
 
 ul li span:hover{
-    background: #edeef0;
+    background: #2158c6;
+    border-radius:40px;
+    color:white;
+}
+
+#list-container li{
+   background-color: #edeef0;
+   border:3px solid white;
+   border-radius: 40px;
+   
 }
